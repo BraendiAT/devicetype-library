@@ -6,6 +6,20 @@ u_height: 1
 is_full_depth: true
 subdevice_role: ''
 comments: ''
+console-ports:
+- name: USB1
+  type: usb-a
+- name: vty
+  type: rj-45
+power-ports:
+- name: PSU1
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+- name: PSU2
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
 interfaces:
 - name: M-GigabitEthernet0/0/0
   type: 1000base-t
@@ -106,4 +120,3 @@ interfaces:
 - name: hundredgige1/0/32
   type: 100gbase-x-qsfp28
   mgmt_only: false
-  
